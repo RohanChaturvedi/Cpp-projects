@@ -17,6 +17,10 @@ int main(){
 	int n = 0;
 	std::cout << "Please enter an integer /n";
 	std::cin >> n;
-	factorial(n);
+	int result = 0;	
+	int result = factorial(n);
+	std::cout << "The Factorial of " + n + " is " + result + ". /n";
+	return 0;
+	
 }
 
